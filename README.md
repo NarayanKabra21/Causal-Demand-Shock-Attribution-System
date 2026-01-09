@@ -29,23 +29,44 @@ This project addresses that gap by building a **causal attribution layer on top 
 
 ## 🏗️ Project Architecture
 
-Causal-Demand-Shock-Attribution/
-│
-├── data/
-│ ├── raw_demand.csv
-│ ├── large_demand_data.csv
-│ ├── events_data.csv
-│ └── causal_features.csv
-│
-├── notebooks/
-│ ├── anomaly_detection.ipynb
-│ ├── baseline_demand_model.ipynb
-│ ├── data_preparation.ipynb
-│ ├── causal_feature_engineering.ipynb
-│ ├── shock_attribution_model.ipynb
-│ └── explanation_and_insights.ipynb
-│
-└── README.md
+  📁 Data Layer
+
+- data/raw_demand.csv
+  Raw historical demand time-series data
+
+- data/large_demand_data.csv
+  Extended dataset used for robust modeling
+
+- data/events_data.csv
+ External events (promotions, holidays, disruptions)
+ 
+- data/causal_features.csv
+  Engineered causal features for attribution analysis
+
+📓 Notebooks (Executed Sequentially)
+
+- data_preparation.ipynb
+ Data cleaning, transformations, and feature alignment
+
+- baseline_demand_model.ipynb
+  Baseline demand forecasting model (expected behavior)
+
+- anomaly_detection.ipynb
+  Detection of demand shocks using time-series techniques
+
+- causal_feature_engineering.ipynb
+  Construction of causal variables influencing demand
+
+- shock_attribution_model.ipynb
+  Attribution of detected demand shocks to root causes
+
+- explanation_and_insights.ipynb
+  Model explainability, visual insights, and business interpretation
+
+📄 Documentation
+
+- README.md
+  Project overview, architecture, execution steps, and insights
 
 
 ---
