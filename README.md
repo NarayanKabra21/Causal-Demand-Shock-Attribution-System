@@ -34,12 +34,6 @@ This project addresses that gap by building a **causal attribution layer on top 
 - data/raw_demand.csv
   Raw historical demand time-series data
 
-- data/large_demand_data.csv
-  Extended dataset used for robust modeling
-
-- data/events_data.csv
- External events (promotions, holidays, disruptions)
- 
 - data/causal_features.csv
   Engineered causal features for attribution analysis
 
